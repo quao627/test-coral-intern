@@ -1,5 +1,7 @@
 # Test Coral Intern
 
+> 这是第一个消息测试。
+
 Scaffolded by [`coral-intern`](https://www.npmjs.com/package/coral-intern).
 
 ## Layout
