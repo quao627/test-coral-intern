@@ -1,33 +1,21 @@
-# Test Coral Intern
+# AI Intern Research
 
-> 这是第一个消息测试。
+A research project studying **AI interns** — LLM-based coding/research agents
+(Claude Code, Cursor, Devin, etc.) operating as autonomous collaborators on
+realistic project workflows. The goal is to characterize where these agents
+genuinely act like junior researchers and where the analogy breaks down.
 
-Scaffolded by [`coral-intern`](https://www.npmjs.com/package/coral-intern).
+Paper draft: [Overleaf project](https://www.overleaf.com/project/6a37b8df385c6fc8caa9a9ad)
 
 ## Layout
 
-- `main.tex` — the paper. Build with `pdflatex main.tex` (or upload to Overleaf).
+- `main.tex` — paper draft (synced to Overleaf via `overleaf_push`).
 - `references.bib` — bibliography.
-- `src/` — code lives here. Add what you need.
-- `data/` — datasets (gitignored by default; add specific files if small).
+- `src/` — experiment code.
+- `data/` — datasets and task specs.
 
-## Working with the intern
+## Workflow
 
-From the project root:
-
-```bash
-coral-intern open
-```
-
-…opens the browser terminal. Tell it what you need:
-
-- *"Draft an outline for the introduction in `main.tex`."*
-- *"Find five recent arXiv papers on X and add them to references.bib."*
-- *"Implement the baseline in `src/baseline.py` and run it on `data/sample.csv`."*
-- *"Commit and push the changes, then update the Overleaf project."*
-
-## Overleaf
-
-The Overleaf project was created by importing this repo as a zip.
-To pull updates from GitHub into Overleaf again, re-import using the same URL,
-or (with Overleaf Premium) enable the built-in GitHub sync in the project menu.
+This repo is driven from a browser terminal via [`coral-intern`](https://www.npmjs.com/package/coral-intern).
+Tasks are tracked on the kanban plan board — that's the source of truth for what
+is planned, in progress, or done.
